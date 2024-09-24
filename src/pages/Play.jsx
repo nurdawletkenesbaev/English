@@ -4,6 +4,7 @@ import React, {
     , useEffect
 } from 'react'
 import { words } from '../config/contants'
+import { Link } from 'react-router-dom'
 
 const Play = () => {
     const [lang, setLang] = useState()
@@ -38,9 +39,10 @@ const Play = () => {
     function handleSubmit(e) {
         e.preventDefault()
         const value = e.target['input'].value
-        console.log(words[counter].eng)
+        console.log(playWords[counter])
         if (lang === '1') {
-            if (value.toLowerCase() == words[counter].uzb.toLowerCase()) {
+            if (value.toLowerCase() == words.find((item, index) => item.eng == playWords[counter])
+                .uzb.toLowerCase()) {
                 setCounter(counter + 1)
             }
             else {
@@ -48,7 +50,7 @@ const Play = () => {
             }
         }
         else {
-            if (value.toLowerCase() == words[counter].eng.toLowerCase()) {
+            if (value.toLowerCase() == words.find((item, index) => item.uzb == playWords[counter]).eng.toLowerCase()) {
                 setCounter(counter + 1)
             }
             else {
@@ -104,6 +106,13 @@ const Play = () => {
                     <input id='input' type="text" className='w-full outline-none bg-transparent px-[20px] py-[10px] border-[1px] rounded-md border-blue-500' />
                     <button type='submit' className='bg-blue-500 px-[20px] py-[10px] rounded-md'>Send</button>
                 </form>
+
+                <div className='flex justify-center items-center my-[30px] gap-[30px]'>
+                    <Link to='/' className='w-[50%]'>
+                        <button className='bg-blue-500 w-full py-[10px] hover:scale-[1.02] duration-200 active:scale-[0.98] rounded-md'>Restart</button>
+                    </Link>
+                    <button onClick={() => setCounter(counter + 1)} className='bg-blue-500 w-[50%] py-[10px] hover:scale-[1.02] duration-200 active:scale-[0.98] rounded-md'>Next word</button>
+                </div>
             </div>
         </div>
     )
