@@ -599,7 +599,4 @@ export const words = [
         eng: 'Bun (ban)',
         uzb: "Boluchka"
     },
-    {
-        
-    }
 ]
