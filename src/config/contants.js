@@ -86,7 +86,7 @@ export const words = [
     {
         id: 15,
         level: 'elementary',
-        eng: 'Yuor (yor)',
+        eng: 'Your (yor)',
         uzb: 'Sening'
     },
     {

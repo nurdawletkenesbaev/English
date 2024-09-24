@@ -9,7 +9,7 @@ const Header = () => {
     const { colorMode, toggleColorMode } = useColorMode()
     return (
         <div className='h-[70px] w-full px-[5%] flex justify-between items-center border-b-[1px]'>
-            <div className='w-[50px] h-[50px]'>
+            <div className='w-[40px] h-[40px]'>
                 <img src={logo} alt="" className='w-full h-full'/>
             </div>
             <div className='flex gap-[30px] font-semibold'>
