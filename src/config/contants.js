@@ -598,5 +598,8 @@ export const words = [
         level: 'elementary',
         eng: 'Bun (ban)',
         uzb: "Boluchka"
+    },
+    {
+        
     }
 ]

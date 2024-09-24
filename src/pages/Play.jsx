@@ -41,7 +41,8 @@ const Play = () => {
         const value = e.target['input'].value
         console.log(playWords[counter])
         if (lang === '1') {
-            if (value.toLowerCase() == words.find((item, index) => item.eng == playWords[counter])
+            if (value.toLowerCase()
+                     .trim() == words.find((item, index) => item.eng == playWords[counter])
                 .uzb.toLowerCase()) {
                 setCounter(counter + 1)
             }
@@ -50,7 +51,8 @@ const Play = () => {
             }
         }
         else {
-            if (value.toLowerCase() == words.find((item, index) => item.uzb == playWords[counter]).eng.toLowerCase()) {
+            if (value.toLowerCase()
+                     .trim() == words.find((item, index) => item.uzb == playWords[counter]).eng.toLowerCase()) {
                 setCounter(counter + 1)
             }
             else {
