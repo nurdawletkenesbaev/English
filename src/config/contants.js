@@ -690,6 +690,516 @@ export const words = [
         uzb: "Tvorog"
     },
     {
+        id: 116,
+        level: 'elementary',
+        eng: 'Hi',
+        uzb: "Salom"
+    },
+    {
+        id: 117,
+        level: 'elementary',
+        eng: 'Hello',
+        uzb: "Salom"
+    },
+    {
+        id: 118,
+        level: 'elementary',
+        eng: 'Sorry',
+        uzb: "Uzur"
+    },
+    {
+        id: 119,
+        level: 'elementary',
+        eng: 'Please',
+        uzb: "Iltimos"
+    },
+    {
+        id: 120,
+        level: 'elementary',
+        eng: 'Man',
+        uzb: "Erkak"
+    },
+    {
+        id: 121,
+        level: 'elementary',
+        eng: 'Woman',
+        uzb: "Ayol"
+    },
+    {
+        id: 122,
+        level: 'elementary',
+        eng: 'Child',
+        uzb: "Bola"
+    },
+    {
+        id: 123,
+        level: 'elementary',
+        eng: 'Boy',
+        uzb: "O'g'il bola"
+    },
+    {
+        id: 124,
+        level: 'elementary',
+        eng: 'Girl',
+        uzb: "Qiz bola"
+    },
+    {
+        id: 125,
+        level: 'elementary',
+        eng: 'Guy',
+        uzb: "Yigit"
+    },
+    {
+        id: 126,
+        level: 'elementary',
+        eng: 'Friend',
+        uzb: "Do'st"
+    },
+    {
+        id: 127,
+        level: 'elementary',
+        eng: 'Acquaintance',
+        uzb: "Tanish"
+    },
+    {
+        id: 128,
+        level: 'elementary',
+        eng: 'Neighbor',
+        uzb: "Qo'shni"
+    },
+    {
+        id: 129,
+        level: 'elementary',
+        eng: 'Guest',
+        uzb: "Mehmon"
+    },
+    {
+        id: 130,
+        level: 'elementary',
+        eng: 'Chief',
+        uzb: "Boshliq"
+    },
+    {
+        id: 131,
+        level: 'elementary',
+        eng: 'Boss',
+        uzb: "Xo'jayin"
+    },
+    {
+        id: 132,
+        level: 'elementary',
+        eng: 'Competitor',
+        uzb: "Raqobatchi"
+    },
+    {
+        id: 133,
+        level: 'elementary',
+        eng: 'Client',
+        uzb: "Mijoz"
+    },
+    {
+        id: 134,
+        level: 'elementary',
+        eng: 'Colleague',
+        uzb: "Hamkasb"
+    },
+    {
+        id: 135,
+        level: 'elementary',
+        eng: 'Family',
+        uzb: "Oila"
+    },
+    {
+        id: 136,
+        level: 'elementary',
+        eng: 'People',
+        uzb: "Odamlar"
+    },
+    {
+        id: 137,
+        level: 'elementary',
+        eng: 'Parents',
+        uzb: "Ota-ona"
+    },
+    {
+        id: 138,
+        level: 'elementary',
+        eng: 'Father',
+        uzb: "Ota"
+    },
+    {
+        id: 139,
+        level: 'elementary',
+        eng: 'Mother',
+        uzb: "Ona"
+    },
+    {
+        id: 140,
+        level: 'elementary',
+        eng: 'Husband',
+        uzb: "Er"
+    },
+    {
+        id: 141,
+        level: 'elementary',
+        eng: 'Wife',
+        uzb: "Xotin"
+    },
+    {
+        id: 142,
+        level: 'elementary',
+        eng: 'Son',
+        uzb: "O'g'il"
+    },
+    {
+        id: 143,
+        level: 'elementary',
+        eng: 'Daughter',
+        uzb: "Qiz"
+    },
+    {
+        id: 144,
+        level: 'elementary',
+        eng: 'Brother',
+        uzb: "Aka"
+    },
+    {
+        id: 145,
+        level: 'elementary',
+        eng: 'Sister',
+        uzb: "Opa"
+    },
+    {
+        id: 146,
+        level: 'elementary',
+        eng: 'Granfather',
+        uzb: "Bobo"
+    },
+    {
+        id: 147,
+        level: 'elementary',
+        eng: 'Father-in-low',
+        uzb: "Qaynota"
+    },
+    {
+        id: 148,
+        level: 'elementary',
+        eng: 'Uncle',
+        uzb: "Amaki"
+    },
+    {
+        id: 149,
+        level: 'elementary',
+        eng: 'Grandmather',
+        uzb: "Buvi"
+    },
+    {
+        id: 150,
+        level: 'elementary',
+        eng: 'Aunt',
+        uzb: "Hola"
+    },
+    {
+        id: 151,
+        level: 'elementary',
+        eng: 'Cousin',
+        uzb: "Amakivachcha"
+    },
+    {
+        id: 152,
+        level: 'elementary',
+        eng: 'Nephew',
+        uzb: "O'g'il bola jiyan"
+    },
+    {
+        id: 153,
+        level: 'elementary',
+        eng: 'Niece',
+        uzb: "Qiz bola jiyan"
+    },
+    {
+        id: 154,
+        level: 'elementary',
+        eng: 'Job',
+        uzb: "Ish"
+    },
+    {
+        id: 155,
+        level: 'elementary',
+        eng: 'Businessman',
+        uzb: "Tadbirkor"
+    },
+    {
+        id: 156,
+        level: 'elementary',
+        eng: 'Teacher',
+        uzb: "O'qituvchi"
+    },
+    {
+        id: 157,
+        level: 'elementary',
+        eng: 'Driver',
+        uzb: "Haydovchi"
+    },
+    {
+        id: 158,
+        level: 'elementary',
+        eng: 'Worker',
+        uzb: "Ishchi"
+    },
+    {
+        id: 159,
+        level: 'elementary',
+        eng: 'Engineer',
+        uzb: "Muhandis"
+    },
+    {
+        id: 160,
+        level: 'elementary',
+        eng: 'Doctor',
+        uzb: "Shifokor"
+    },
+    {
+        id: 161,
+        level: 'elementary',
+        eng: 'Lawyer',
+        uzb: "Advokat"
+    },
+    {
+        id: 162,
+        level: 'elementary',
+        eng: 'Journalist',
+        uzb: "Jurnalist"
+    },
+    {
+        id: 163,
+        level: 'elementary',
+        eng: 'Nurse',
+        uzb: "Hamshira"
+    },
+    {
+        id: 164,
+        level: 'elementary',
+        eng: 'Shop assistent',
+        uzb: "Sotuvchi"
+    },
+    {
+        id: 165,
+        level: 'elementary',
+        eng: 'Waiter',
+        uzb: "Ofisiant"
+    },
+    {
+        id: 166,
+        level: 'elementary',
+        eng: 'Accountant',
+        uzb: "Buxgalter"
+    },
+    {
+        id: 167,
+        level: 'elementary',
+        eng: 'Artist',
+        uzb: "Rassom"
+    },
+    {
+        id: 168,
+        level: 'elementary',
+        eng: 'Musician',
+        uzb: "Musiqachi"
+    },
+    {
+        id: 169,
+        level: 'elementary',
+        eng: 'Aktor',
+        uzb: "Aktyor"
+    },
+    {
+        id: 170,
+        level: 'elementary',
+        eng: 'Student',
+        uzb: "Student"
+    },
+    {
+        id: 171,
+        level: 'elementary',
+        eng: 'Pupil',
+        uzb: "O'quvchi"
+    },
+    {
+        id: 172,
+        level: 'elementary',
+        eng: 'Country',
+        uzb: "Davlat"
+    },
+    {
+        id: 173,
+        level: 'elementary',
+        eng: 'City',
+        uzb: "Shahar"
+    },
+    {
+        id: 174,
+        level: 'elementary',
+        eng: 'House',
+        uzb: "Uy"
+    },
+    {
+        id: 175,
+        level: 'elementary',
+        eng: 'Home',
+        uzb: "Uy"
+    },
+    {
+        id: 176,
+        level: 'elementary',
+        eng: 'Building',
+        uzb: "Bino"
+    },
+    {
+        id: 177,
+        level: 'elementary',
+        eng: 'Place',
+        uzb: "Joy"
+    },
+    {
+        id: 178,
+        level: 'elementary',
+        eng: 'Entrance',
+        uzb: "Kirish"
+    },
+    {
+        id: 179,
+        level: 'elementary',
+        eng: 'Exit',
+        uzb: "Chiqish"
+    },
+    {
+        id: 180,
+        level: 'elementary',
+        eng: 'Center',
+        uzb: "Markaz"
+    },
+    {
+        id: 181,
+        level: 'elementary',
+        eng: 'Yard',
+        uzb: "Hovli"
+    },
+    {
+        id: 182,
+        level: 'elementary',
+        eng: 'Roof',
+        uzb: "Tom"
+    },
+    {
+        id: 183,
+        level: 'elementary',
+        eng: 'Fence',
+        uzb: "Panjara"
+    },
+    {
+        id: 184,
+        level: 'elementary',
+        eng: 'Land',
+        uzb: "Yer"
+    },
+    {
+        id: 185,
+        level: 'elementary',
+        eng: 'Village',
+        uzb: "Qishloq"
+    },
+    {
+        id: 186,
+        level: 'elementary',
+        eng: 'School',
+        uzb: "Maktab"
+    },
+    {
+        id: 187,
+        level: 'elementary',
+        eng: 'University',
+        uzb: "Universitet"
+    },
+    {
+        id: 188,
+        level: 'elementary',
+        eng: 'Theatre',
+        uzb: "Teatr"
+    },
+    {
+        id: 189,
+        level: 'elementary',
+        eng: 'Church',
+        uzb: "Cherkov"
+    },
+    {
+        id: 190,
+        level: 'elementary',
+        eng: 'Restaurant',
+        uzb: "Restoran"
+    },
+    {
+        id: 191,
+        level: 'elementary',
+        eng: 'Cafe',
+        uzb: "Qahvaxona"
+    },
+    {
+        id: 192,
+        level: 'elementary',
+        eng: 'Hotel',
+        uzb: "Mehmonxona"
+    },
+    {
+        id: 193,
+        level: 'elementary',
+        eng: 'Bank',
+        uzb: "Bank"
+    },
+    {
+        id: 194,
+        level: 'elementary',
+        eng: 'Cinema',
+        uzb: "Kinoteatr"
+    },
+    {
+        id: 195,
+        level: 'elementary',
+        eng: 'Hospital',
+        uzb: "Kasalxona"
+    },
+    {
+        id: 196,
+        level: 'elementary',
+        eng: 'Post office',
+        uzb: "Pochta"
+    },
+    {
+        id: 197,
+        level: 'elementary',
+        eng: 'Station',
+        uzb: "Vokzal"
+    },
+    {
+        id: 198,
+        level: 'elementary',
+        eng: 'Airport',
+        uzb: "Aeroport"
+    },
+    {
+        id: 199,
+        level: 'elementary',
+        eng: 'Shop',
+        uzb: "Do'kon"
+    },
+    {
+        id: 200,
+        level: 'elementary',
+        eng: 'Pharmacy',
+        uzb: "Dorixona"
+    },
+    {
         id: 601,
         level: 'elementary',
         eng: 'Body',
