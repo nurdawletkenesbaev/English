@@ -1200,6 +1200,606 @@ export const words = [
         uzb: "Dorixona"
     },
     {
+        id: 201,
+        level: 'elementary',
+        eng: 'Market',
+        uzb: "Bozor"
+    },
+    {
+        id: 202,
+        level: 'elementary',
+        eng: 'Office',
+        uzb: "Ishxona"
+    },
+    {
+        id: 203,
+        level: 'elementary',
+        eng: 'Company',
+        uzb: "Kompaniya"
+    },
+    {
+        id: 204,
+        level: 'elementary',
+        eng: 'Factory',
+        uzb: "Fabrika"
+    },
+    {
+        id: 205,
+        level: 'elementary',
+        eng: 'Square',
+        uzb: "Xiyobon"
+    },
+    {
+        id: 206,
+        level: 'elementary',
+        eng: 'Street',
+        uzb: "Ko'cha"
+    },
+    {
+        id: 207,
+        level: 'elementary',
+        eng: 'Road',
+        uzb: "Yo'l"
+    },
+    {
+        id: 208,
+        level: 'elementary',
+        eng: 'Stop',
+        uzb: "Bekat"
+    },
+    {
+        id: 209,
+        level: 'elementary',
+        eng: 'Sidewalk',
+        uzb: "Tratuar"
+    },
+    {
+        id: 210,
+        level: 'elementary',
+        eng: 'Garden',
+        uzb: "Bog'"
+    },
+    {
+        id: 211,
+        level: 'elementary',
+        eng: 'Park',
+        uzb: "Park"
+    },
+    {
+        id: 212,
+        level: 'elementary',
+        eng: 'Bridge',
+        uzb: "Ko'prik"
+    },
+    {
+        id: 213,
+        level: 'elementary',
+        eng: 'River',
+        uzb: "Daryo"
+    },
+    {
+        id: 214,
+        level: 'elementary',
+        eng: 'Field',
+        uzb: "Dala"
+    },
+    {
+        id: 215,
+        level: 'elementary',
+        eng: 'Forest',
+        uzb: "O'rmon"
+    },
+    {
+        id: 216,
+        level: 'elementary',
+        eng: 'Mountain',
+        uzb: "Tog'"
+    },
+    {
+        id: 217,
+        level: 'elementary',
+        eng: 'Lake',
+        uzb: "Ko'l"
+    },
+    {
+        id: 218,
+        level: 'elementary',
+        eng: 'Sea',
+        uzb: "Dengiz"
+    },
+    {
+        id: 219,
+        level: 'elementary',
+        eng: 'Ocean',
+        uzb: "Okean"
+    },
+    {
+        id: 220,
+        level: 'elementary',
+        eng: 'Coast',
+        uzb: "Dengiz qirg'og'i"
+    },
+    {
+        id: 221,
+        level: 'elementary',
+        eng: 'Beach',
+        uzb: "Plyaj"
+    },
+    {
+        id: 222,
+        level: 'elementary',
+        eng: 'Sand',
+        uzb: "Qum"
+    },
+    {
+        id: 223,
+        level: 'elementary',
+        eng: 'Border',
+        uzb: "Chegara"
+    },
+    {
+        id: 224,
+        level: 'elementary',
+        eng: 'Customs',
+        uzb: "Tamojnya"
+    },
+    {
+        id: 225,
+        level: 'elementary',
+        eng: 'Garbage',
+        uzb: "Axlat"
+    },
+    {
+        id: 226,
+        level: 'elementary',
+        eng: 'Waste',
+        uzb: "Qoldiq"
+    },
+    {
+        id: 227,
+        level: 'elementary',
+        eng: 'Stone',
+        uzb: "Tosh"
+    },
+    {
+        id: 228,
+        level: 'elementary',
+        eng: 'Agree',
+        uzb: "Rozi bo'lmoq"
+    },
+    {
+        id: 229,
+        level: 'elementary',
+        eng: 'Allow',
+        uzb: "Ruxsat bermoq"
+    },
+    {
+        id: 230,
+        level: 'elementary',
+        eng: 'Be',
+        uzb: "Bo'lmoq"
+    },
+    {
+        id: 231,
+        level: 'elementary',
+        eng: 'Become',
+        uzb: "Aylanmoq"
+    },
+    {
+        id: 232,
+        level: 'elementary',
+        eng: 'Begin',
+        uzb: "Boshlamoq"
+    },
+    {
+        id: 233,
+        level: 'elementary',
+        eng: 'Break',
+        uzb: "Sindirmoq, buzmoq"
+    },
+    {
+        id: 234,
+        level: 'elementary',
+        eng: 'Bring',
+        uzb: "Olib kelish"
+    },
+    {
+        id: 235,
+        level: 'elementary',
+        eng: 'Buy',
+        uzb: "Sotib olish"
+    },
+    {
+        id: 236,
+        level: 'elementary',
+        eng: 'Call',
+        uzb: "Qo'ng'iroq qilish"
+    },
+    {
+        id: 237,
+        level: 'elementary',
+        eng: 'Can',
+        uzb: "Qo'lidan kelmoq"
+    },
+    {
+        id: 238,
+        level: 'elementary',
+        eng: 'Change',
+        uzb: "O'zgartirmoq"
+    },
+    {
+        id: 239,
+        level: 'elementary',
+        eng: 'Close',
+        uzb: "Yopmoq"
+    },
+    {
+        id: 240,
+        level: 'elementary',
+        eng: 'Come',
+        uzb: "Kelmoq"
+    },
+    {
+        id: 241,
+        level: 'elementary',
+        eng: 'Cook',
+        uzb: "Pishirmoq"
+    },
+    {
+        id: 242,
+        level: 'elementary',
+        eng: 'Cut',
+        uzb: "Kesmoq"
+    },
+    {
+        id: 243,
+        level: 'elementary',
+        eng: 'Do',
+        uzb: "Qilmoq"
+    },
+    {
+        id: 244,
+        level: 'elementary',
+        eng: 'Fall',
+        uzb: "Yiqilmoq"
+    },
+    {
+        id: 245,
+        level: 'elementary',
+        eng: 'Find',
+        uzb: "Topmoq"
+    },
+    {
+        id: 246,
+        level: 'elementary',
+        eng: 'Fly',
+        uzb: "Uchmoq"
+    },
+    {
+        id: 247,
+        level: 'elementary',
+        eng: 'Follow',
+        uzb: "Ergashmoq"
+    },
+    {
+        id: 248,
+        level: 'elementary',
+        eng: 'Get',
+        uzb: "Olmoq"
+    },
+    {
+        id: 249,
+        level: 'elementary',
+        eng: 'Have',
+        uzb: "Ega bo'lmoq"
+    },
+    {
+        id: 250,
+        level: 'elementary',
+        eng: 'Hold',
+        uzb: "Ushlamoq"
+    },
+    {
+        id: 251,
+        level: 'elementary',
+        eng: 'Know',
+        uzb: "Bilmoq"
+    },
+    {
+        id: 252,
+        level: 'elementary',
+        eng: 'Leave',
+        uzb: "Ketish"
+    },
+    {
+        id: 253,
+        level: 'elementary',
+        eng: 'Make',
+        uzb: "Qilmoq"
+    },
+    {
+        id: 254,
+        level: 'elementary',
+        eng: 'May',
+        uzb: "Mumkin"
+    },
+    {
+        id: 255,
+        level: 'elementary',
+        eng: 'Need',
+        uzb: "Muhtoj"
+    },
+    {
+        id: 256,
+        level: 'elementary',
+        eng: 'Mean',
+        uzb: "Anglatmoq"
+    },
+    {
+        id: 257,
+        level: 'elementary',
+        eng: 'Open',
+        uzb: "Ochmoq"
+    },
+    {
+        id: 258,
+        level: 'elementary',
+        eng: 'Pay',
+        uzb: "To'lamoq"
+    },
+    {
+        id: 259,
+        level: 'elementary',
+        eng: 'Play',
+        uzb: "O'ynamoq"
+    },
+    {
+        id: 260,
+        level: 'elementary',
+        eng: 'Sell',
+        uzb: "Sotmoq"
+    },
+    {
+        id: 261,
+        level: 'elementary',
+        eng: 'Send',
+        uzb: "Jo'natmoq"
+    },
+    {
+        id: 262,
+        level: 'elementary',
+        eng: 'Sit',
+        uzb: "O'tirmoq"
+    },
+    {
+        id: 263,
+        level: 'elementary',
+        eng: 'Speak',
+        uzb: "Gapirmoq"
+    },
+    {
+        id: 264,
+        level: 'elementary',
+        eng: 'Stand',
+        uzb: "Turmoq"
+    },
+    {
+        id: 265,
+        level: 'elementary',
+        eng: 'Start',
+        uzb: "Boshlamoq"
+    },
+    {
+        id: 266,
+        level: 'elementary',
+        eng: 'Stop',
+        uzb: "To'xtatmoq"
+    },
+    {
+        id: 267,
+        level: 'elementary',
+        eng: 'Talk',
+        uzb: "Gapirmoq"
+    },
+    {
+        id: 268,
+        level: 'elementary',
+        eng: 'Tell',
+        uzb: "Aytib bermoq"
+    },
+    {
+        id: 269,
+        level: 'elementary',
+        eng: 'Travel',
+        uzb: "Sayohat"
+    },
+    {
+        id: 270,
+        level: 'elementary',
+        eng: 'Try',
+        uzb: "Sinab ko'rmoq"
+    },
+    {
+        id: 271,
+        level: 'elementary',
+        eng: 'Understand',
+        uzb: "Tushunmoq"
+    },
+    {
+        id: 272,
+        level: 'elementary',
+        eng: 'Use',
+        uzb: "Ishlatmoq"
+    },
+    {
+        id: 273,
+        level: 'elementary',
+        eng: 'Wait',
+        uzb: "Kutmoq"
+    },
+    {
+        id: 274,
+        level: 'elementary',
+        eng: 'Watch',
+        uzb: "Qaramoq"
+    },
+    {
+        id: 275,
+        level: 'elementary',
+        eng: 'Win',
+        uzb: "Yutmoq"
+    },
+    {
+        id: 276,
+        level: 'elementary',
+        eng: 'Work',
+        uzb: "Ishlamoq"
+    },
+    {
+        id: 277,
+        level: 'elementary',
+        eng: 'Worry',
+        uzb: "Xavotir olmoq"
+    },
+    {
+        id: 278,
+        level: 'elementary',
+        eng: 'Answer',
+        uzb: "Javob"
+    },
+    {
+        id: 279,
+        level: 'elementary',
+        eng: 'Ask',
+        uzb: "So'ramoq"
+    },
+    {
+        id: 280,
+        level: 'elementary',
+        eng: 'Believe',
+        uzb: "Ishonmoq"
+    },
+    {
+        id: 281,
+        level: 'elementary',
+        eng: 'Borrow',
+        uzb: "Qarz olmoq"
+    },
+    {
+        id: 282,
+        level: 'elementary',
+        eng: 'Carry',
+        uzb: "Tashib yurmoq"
+    },
+    {
+        id: 283,
+        level: 'elementary',
+        eng: 'Copy',
+        uzb: "Ko'chirmoq"
+    },
+    {
+        id: 284,
+        level: 'elementary',
+        eng: 'Decide',
+        uzb: "Yechmoq"
+    },
+    {
+        id: 285,
+        level: 'elementary',
+        eng: 'Discuss',
+        uzb: "Muhokama qilmoq"
+    },
+    {
+        id: 286,
+        level: 'elementary',
+        eng: 'Eat',
+        uzb: "Yemoq"
+    },
+    {
+        id: 287,
+        level: 'elementary',
+        eng: 'Explain',
+        uzb: "Tushuntirmoq"
+    },
+    {
+        id: 288,
+        level: 'elementary',
+        eng: 'Feel',
+        uzb: "His qilmoq"
+    },
+    {
+        id: 289,
+        level: 'elementary',
+        eng: 'Fill',
+        uzb: "To'ldirmoq"
+    },
+    {
+        id: 290,
+        level: 'elementary',
+        eng: 'Finish',
+        uzb: "Tugatmoq"
+    },
+    {
+        id: 291,
+        level: 'elementary',
+        eng: 'Forget',
+        uzb: "Esdan chiqarmoq"
+    },
+    {
+        id: 292,
+        level: 'elementary',
+        eng: 'Give',
+        uzb: "Bermoq"
+    },
+    {
+        id: 293,
+        level: 'elementary',
+        eng: 'Go',
+        uzb: "Bormoq"
+    },
+    {
+        id: 294,
+        level: 'elementary',
+        eng: 'Happen',
+        uzb: "Ro'y bermoq"
+    },
+    {
+        id: 295,
+        level: 'elementary',
+        eng: 'Hear',
+        uzb: "Eshitmoq"
+    },
+    {
+        id: 296,
+        level: 'elementary',
+        eng: 'Help',
+        uzb: "Yordam bermoq"
+    },
+    {
+        id: 297,
+        level: 'elementary',
+        eng: 'Keep',
+        uzb: "Saqlamoq"
+    },
+    {
+        id: 298,
+        level: 'elementary',
+        eng: 'Learn',
+        uzb: "O'rganmoq"
+    },
+    {
+        id: 299,
+        level: 'elementary',
+        eng: 'Like',
+        uzb: "Yoqtirmoq"
+    },
+    {
+        id: 300,
+        level: 'elementary',
+        eng: 'Listen',
+        uzb: "Tinglamoq"
+    },
+    {
         id: 601,
         level: 'elementary',
         eng: 'Body',
