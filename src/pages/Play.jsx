@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const Play = () => {
     const [lang, setLang] = useState()
-    const [range, setRange] = useState([0, 100])
+    const [range, setRange] = useState([0, 900])
     const [playWords, setPlayWords] = useState([])
     const [hide, setHide] = useState(true)
     function selectLang() {
@@ -88,7 +88,7 @@ const Play = () => {
                         <span>{range[0]}</span>
                         <span>{range[1]}</span>
                     </div>
-                    <RangeSlider aria-label={['min', 'max']} defaultValue={[range[0], range[1]]} onChange={(val) => setRange(val)}>
+                    <RangeSlider min={0} max={900} step={10} aria-label={['min', 'max']} defaultValue={[range[0], range[1]]} onChange={(val) => setRange(val)}>
                         <RangeSliderTrack>
                             <RangeSliderFilledTrack />
                         </RangeSliderTrack>
