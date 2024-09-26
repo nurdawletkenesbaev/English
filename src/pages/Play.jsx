@@ -102,8 +102,7 @@ const Play = () => {
             </div>
             <div className={`${hide ? 'hidden' : 'flex'} flex-col w-[90%] py-[30px]`}>
                 <div className='w-full text-center border-b-[1px] mb-[30px] py-[10px]'>
-                    {words.find((item, index) => item.uzb == playWords[counter])
-                          .id}. {playWords[counter]}
+                    {counter+1}. {playWords[counter]}
                 </div>
                 <form onSubmit={(e) => handleSubmit(e)} className='w-full flex justify-between items-center gap-[20px]'>
                     <input id='input' type="text" className='w-full outline-none bg-transparent px-[20px] py-[10px] border-[1px] rounded-md border-blue-500' />
