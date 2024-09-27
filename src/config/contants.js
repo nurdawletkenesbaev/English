@@ -1010,7 +1010,7 @@ export const words = [
     {
         id: 169,
         level: 'elementary',
-        eng: 'Aktor',
+        eng: 'Actor',
         uzb: "Aktyor"
     },
     {
@@ -1401,19 +1401,19 @@ export const words = [
         id: 234,
         level: 'elementary',
         eng: 'Bring',
-        uzb: "Olib kelish"
+        uzb: "Olib kelmoq"
     },
     {
         id: 235,
         level: 'elementary',
         eng: 'Buy',
-        uzb: "Sotib olish"
+        uzb: "Sotib olmoq"
     },
     {
         id: 236,
         level: 'elementary',
         eng: 'Call',
-        uzb: "Qo'ng'iroq qilish"
+        uzb: "Qo'ng'iroq qilmoq"
     },
     {
         id: 237,
@@ -1798,6 +1798,606 @@ export const words = [
         level: 'elementary',
         eng: 'Listen',
         uzb: "Tinglamoq"
+    },
+    {
+        id: 301,
+        level: 'elementary',
+        eng: 'Live',
+        uzb: "Yashamoq"
+    },
+    {
+        id: 302,
+        level: 'elementary',
+        eng: 'Look',
+        uzb: "Qaramoq"
+    },
+    {
+        id: 303,
+        level: 'elementary',
+        eng: 'Meet',
+        uzb: "Uchrashmoq"
+    },
+    {
+        id: 304,
+        level: 'elementary',
+        eng: 'Move',
+        uzb: "Qimirlamoq"
+    },
+    {
+        id: 305,
+        level: 'elementary',
+        eng: 'Must',
+        uzb: "Kerak"
+    },
+    {
+        id: 306,
+        level: 'elementary',
+        eng: 'Promise',
+        uzb: "Vada bermoq"
+    },
+    {
+        id: 307,
+        level: 'elementary',
+        eng: 'Put',
+        uzb: "Qo'ymoq"
+    },
+    {
+        id: 308,
+        level: 'elementary',
+        eng: 'Read',
+        uzb: "O'qimoq"
+    },
+    {
+        id: 309,
+        level: 'elementary',
+        eng: 'Remember',
+        uzb: "Eslamoq"
+    },
+    {
+        id: 310,
+        level: 'elementary',
+        eng: 'Run',
+        uzb: "Yugurmoq"
+    },
+    {
+        id: 311,
+        level: 'elementary',
+        eng: 'Say',
+        uzb: "Aytmoq"
+    },
+    {
+        id: 312,
+        level: 'elementary',
+        eng: 'See',
+        uzb: "Ko'rmoq"
+    },
+    {
+        id: 313,
+        level: 'elementary',
+        eng: 'Should',
+        uzb: "Kerak"
+    },
+    {
+        id: 314,
+        level: 'elementary',
+        eng: 'Show',
+        uzb: "Ko'rsatmoq"
+    },
+    {
+        id: 315,
+        level: 'elementary',
+        eng: 'Sleep',
+        uzb: "Uxlamoq"
+    },
+    {
+        id: 316,
+        level: 'elementary',
+        eng: 'Spend',
+        uzb: "Sarflamoq"
+    },
+    {
+        id: 317,
+        level: 'elementary',
+        eng: 'Study',
+        uzb: "O'rganmoq"
+    },
+    {
+        id: 318,
+        level: 'elementary',
+        eng: 'Suggest',
+        uzb: "Taklif qilmoq"
+    },
+    {
+        id: 319,
+        level: 'elementary',
+        eng: 'Take',
+        uzb: "Olmoq"
+    },
+    {
+        id: 320,
+        level: 'elementary',
+        eng: 'Think',
+        uzb: "O'ylamoq"
+    },
+    {
+        id: 321,
+        level: 'elementary',
+        eng: 'Turn',
+        uzb: "Burilmoq"
+    },
+    {
+        id: 322,
+        level: 'elementary',
+        eng: 'Wake up',
+        uzb: "Uyg'onmoq"
+    },
+    {
+        id: 323,
+        level: 'elementary',
+        eng: 'Walk',
+        uzb: "Piyoda yurmoq"
+    },
+    {
+        id: 324,
+        level: 'elementary',
+        eng: 'Write',
+        uzb: "Yozmoq"
+    },
+    {
+        id: 325,
+        level: 'elementary',
+        eng: 'Awake',
+        uzb: "Xushyor"
+    },
+    {
+        id: 326,
+        level: 'elementary',
+        eng: 'Bad',
+        uzb: "Yomon"
+    },
+    {
+        id: 327,
+        level: 'elementary',
+        eng: 'Bent',
+        uzb: "Bukri"
+    },
+    {
+        id: 328,
+        level: 'elementary',
+        eng: 'Bitter',
+        uzb: "Achchiq"
+    },
+    {
+        id: 329,
+        level: 'elementary',
+        eng: 'Blue',
+        uzb: "Ko'k"
+    },
+    {
+        id: 330,
+        level: 'elementary',
+        eng: 'Cold',
+        uzb: "Sovuq"
+    },
+    {
+        id: 331,
+        level: 'elementary',
+        eng: 'Cruel',
+        uzb: "Zolim"
+    },
+    {
+        id: 332,
+        level: 'elementary',
+        eng: 'Dark',
+        uzb: "Qorong'u"
+    },
+    {
+        id: 333,
+        level: 'elementary',
+        eng: 'Dead',
+        uzb: "O'lik"
+    },
+    {
+        id: 334,
+        level: 'elementary',
+        eng: 'Dear',
+        uzb: "Aziz"
+    },
+    {
+        id: 335,
+        level: 'elementary',
+        eng: 'Different',
+        uzb: "Har xil"
+    },
+    {
+        id: 336,
+        level: 'elementary',
+        eng: 'Dirty',
+        uzb: "Kir"
+    },
+    {
+        id: 337,
+        level: 'elementary',
+        eng: 'Dry',
+        uzb: "Quruq"
+    },
+    {
+        id: 338,
+        level: 'elementary',
+        eng: 'False',
+        uzb: "Noto'g'ri"
+    },
+    {
+        id: 339,
+        level: 'elementary',
+        eng: 'Feeble',
+        uzb: "Zaif"
+    },
+    {
+        id: 340,
+        level: 'elementary',
+        eng: 'Foolish',
+        uzb: "Tentak"
+    },
+    {
+        id: 341,
+        level: 'elementary',
+        eng: 'Future',
+        uzb: "Kelajak"
+    },
+    {
+        id: 342,
+        level: 'elementary',
+        eng: 'Green',
+        uzb: "Yashil"
+    },
+    {
+        id: 343,
+        level: 'elementary',
+        eng: 'Ill',
+        uzb: "Kasal"
+    },
+    {
+        id: 344,
+        level: 'elementary',
+        eng: 'Last',
+        uzb: "So'ngi"
+    },
+    {
+        id: 345,
+        level: 'elementary',
+        eng: 'Late',
+        uzb: "Kech"
+    },
+    {
+        id: 346,
+        level: 'elementary',
+        eng: 'Left',
+        uzb: "Chap"
+    },
+    {
+        id: 347,
+        level: 'elementary',
+        eng: 'Loose',
+        uzb: "Erkin"
+    },
+    {
+        id: 348,
+        level: 'elementary',
+        eng: 'Loud',
+        uzb: "Baland"
+    },
+    {
+        id: 349,
+        level: 'elementary',
+        eng: 'Low',
+        uzb: "Qonun"
+    },
+    {
+        id: 350,
+        level: 'elementary',
+        eng: 'Mixed',
+        uzb: "Aralash"
+    },
+    {
+        id: 351,
+        level: 'elementary',
+        eng: 'Narrow',
+        uzb: "Tor"
+    },
+    {
+        id: 352,
+        level: 'elementary',
+        eng: 'Old',
+        uzb: "Qari, eski"
+    },
+    {
+        id: 353,
+        level: 'elementary',
+        eng: 'Opposite',
+        uzb: "Qarama-qarshi"
+    },
+    {
+        id: 354,
+        level: 'elementary',
+        eng: 'Rough',
+        uzb: "Qo'pol"
+    },
+    {
+        id: 355,
+        level: 'elementary',
+        eng: 'Sad',
+        uzb: "G'amgin"
+    },
+    {
+        id: 356,
+        level: 'elementary',
+        eng: 'Safe',
+        uzb: "Xavfsiz"
+    },
+    {
+        id: 357,
+        level: 'elementary',
+        eng: 'Secret',
+        uzb: "Sirli"
+    },
+    {
+        id: 358,
+        level: 'elementary',
+        eng: 'Short',
+        uzb: "Kalta"
+    },
+    {
+        id: 359,
+        level: 'elementary',
+        eng: 'Simple',
+        uzb: "Oddiy"
+    },
+    {
+        id: 360,
+        level: 'elementary',
+        eng: 'Slow',
+        uzb: "Sekin"
+    },
+    {
+        id: 361,
+        level: 'elementary',
+        eng: 'Small',
+        uzb: "Kichik"
+    },
+    {
+        id: 362,
+        level: 'elementary',
+        eng: 'Soft',
+        uzb: "Yumshoq"
+    },
+    {
+        id: 363,
+        level: 'elementary',
+        eng: 'Solid',
+        uzb: "Qattiq"
+    },
+    {
+        id: 364,
+        level: 'elementary',
+        eng: 'Special',
+        uzb: "Maxsus"
+    },
+    {
+        id: 365,
+        level: 'elementary',
+        eng: 'Strange',
+        uzb: "Notanish"
+    },
+    {
+        id: 366,
+        level: 'elementary',
+        eng: 'Thin',
+        uzb: "Narsa"
+    },
+    {
+        id: 367,
+        level: 'elementary',
+        eng: 'White',
+        uzb: "Oq"
+    },
+    {
+        id: 368,
+        level: 'elementary',
+        eng: 'Wrong',
+        uzb: "Xato, noto'g'ri"
+    },
+    {
+        id: 369,
+        level: 'elementary',
+        eng: 'Time',
+        uzb: "Vaqt"
+    },
+    {
+        id: 370,
+        level: 'elementary',
+        eng: 'Second',
+        uzb: "Soniya"
+    },
+    {
+        id: 371,
+        level: 'elementary',
+        eng: 'Minute',
+        uzb: "Daqiqa"
+    },
+    {
+        id: 372,
+        level: 'elementary',
+        eng: 'Hour',
+        uzb: "Soat"
+    },
+    {
+        id: 373,
+        level: 'elementary',
+        eng: 'Day',
+        uzb: "Kun"
+    },
+    {
+        id: 374,
+        level: 'elementary',
+        eng: 'Week',
+        uzb: "Hafta"
+    },
+    {
+        id: 375,
+        level: 'elementary',
+        eng: 'Month',
+        uzb: "Oy"
+    },
+    {
+        id: 376,
+        level: 'elementary',
+        eng: 'Year',
+        uzb: "Yil"
+    },
+    {
+        id: 377,
+        level: 'elementary',
+        eng: 'Yesterday',
+        uzb: "Kecha"
+    },
+    {
+        id: 378,
+        level: 'elementary',
+        eng: 'The day before yesterday',
+        uzb: "Kechadan oldingi kun"
+    },
+    {
+        id: 379,
+        level: 'elementary',
+        eng: 'Today',
+        uzb: "Bugun"
+    },
+    {
+        id: 380,
+        level: 'elementary',
+        eng: 'Tonight',
+        uzb: "Bugun tunda"
+    },
+    {
+        id: 381,
+        level: 'elementary',
+        eng: 'Tomorrow',
+        uzb: "Ertaga"
+    },
+    {
+        id: 382,
+        level: 'elementary',
+        eng: 'The day after tomorrow',
+        uzb: "Ertadan keyingi kun"
+    },
+    {
+        id: 383,
+        level: 'elementary',
+        eng: 'Morning',
+        uzb: "Ertalab"
+    },
+    {
+        id: 384,
+        level: 'elementary',
+        eng: 'Afternoon',
+        uzb: "Tushdan keyin"
+    },
+    {
+        id: 385,
+        level: 'elementary',
+        eng: 'Evening',
+        uzb: "Kechqurun"
+    },
+    {
+        id: 386,
+        level: 'elementary',
+        eng: 'Night',
+        uzb: "Tun"
+    },
+    {
+        id: 387,
+        level: 'elementary',
+        eng: 'Monday',
+        uzb: "Dushanba"
+    },
+    {
+        id: 388,
+        level: 'elementary',
+        eng: 'Tuesday',
+        uzb: "Seshanba"
+    },
+    {
+        id: 389,
+        level: 'elementary',
+        eng: 'Wednesday',
+        uzb: "Chorshanba"
+    },
+    {
+        id: 390,
+        level: 'elementary',
+        eng: 'Thursday',
+        uzb: "Payshanba"
+    },
+    {
+        id: 391,
+        level: 'elementary',
+        eng: 'Friday',
+        uzb: "Juma"
+    },
+    {
+        id: 392,
+        level: 'elementary',
+        eng: 'Saturday',
+        uzb: "Shanba"
+    },
+    {
+        id: 393,
+        level: 'elementary',
+        eng: 'Sunday',
+        uzb: "Yakshanba"
+    },
+    {
+        id: 394,
+        level: 'elementary',
+        eng: 'January',
+        uzb: "Yanvar"
+    },
+    {
+        id: 395,
+        level: 'elementary',
+        eng: 'February',
+        uzb: "Fevral"
+    },
+    {
+        id: 396,
+        level: 'elementary',
+        eng: 'March',
+        uzb: "Mart"
+    },
+    {
+        id: 397,
+        level: 'elementary',
+        eng: 'April',
+        uzb: "Aprel"
+    },
+    {
+        id: 398,
+        level: 'elementary',
+        eng: 'May',
+        uzb: "May"
+    },
+    {
+        id: 399,
+        level: 'elementary',
+        eng: 'June',
+        uzb: "Iyun"
+    },
+    {
+        id: 400,
+        level: 'elementary',
+        eng: 'July',
+        uzb: "Iyul"
     },
     {
         id: 601,
@@ -2223,7 +2823,7 @@ export const words = [
         id: 671,
         level: 'elementary',
         eng: 'Music',
-        uzb: "Musiqachi"
+        uzb: "Musiqa"
     },
     {
         id: 672,

@@ -7,33 +7,43 @@ import { words } from '../config/contants'
 import { Link } from 'react-router-dom'
 
 const Play = () => {
-    const [lang, setLang] = useState()
+    const [lang, setLang] = useState('1')
     const [range, setRange] = useState([0, 900])
-    const [playWords, setPlayWords] = useState([])
+    const [playWords, setPlayWords] = useState(words)
     const [hide, setHide] = useState(true)
-    function selectLang() {
-        if (lang == '1') {
-            setPlayWords(words.map(item => item.eng))
-        }
-        else {
-            setPlayWords(words.map(item => item.uzb))
-        }
+    const [mixed, setMixed] = useState(false)
 
+    function shuffle(array) {
+        let currentIndex = array.length;
+
+        // While there remain elements to shuffle...
+        while (currentIndex != 0) {
+
+            // Pick a remaining element...
+            let randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+
+            // And swap it with the current element.
+            [array[currentIndex], array[randomIndex]] = [
+                array[randomIndex], array[currentIndex]];
+        }
     }
+
     function rangeWords() {
-        setPlayWords(playWords.filter((item, index) => (index >= range[0] && index <= range[1])))
+        const newPlaywords = words.filter((item, index) => (index >= range[0] && index <= range[1]))
+        if (mixed) {
+            shuffle(newPlaywords)
+        }
+        setPlayWords(newPlaywords)
     }
 
-    useEffect(() => {
-        selectLang()
-    }, [lang])
 
 
     function start() {
         rangeWords()
         setHide(false)
     }
-
+    // console.log(playWords)
     const [counter, setCounter] = useState(0)
 
     function handleSubmit(e) {
@@ -41,32 +51,38 @@ const Play = () => {
         const value = e.target['input'].value
         console.log(playWords[counter])
         if (lang === '1') {
-            if (value.toLowerCase()
-                     .trim() == words.find((item, index) => item.eng == playWords[counter])
-                .uzb.toLowerCase()) {
+            if (value.trim().toLowerCase() === playWords[counter].uzb.toLowerCase()) {
                 setCounter(counter + 1)
+                e.target.reset()
+                e.target['input'].classList.add('border-blue-500')
+                e.target['input'].classList.remove('border-red-500')
             }
             else {
                 console.log(false)
+                e.target['input'].classList.remove('border-blue-500')
+                e.target['input'].classList.add('border-red-500')
             }
         }
         else {
-            if (value.toLowerCase()
-                     .trim() == words.find((item, index) => item.uzb == playWords[counter]).eng.toLowerCase()) {
+            if (value.trim().toLowerCase() === playWords[counter].eng.toLowerCase()) {
                 setCounter(counter + 1)
+                e.target.reset()
+                e.target['input'].classList.add('border-blue-500')
+                e.target['input'].classList.remove('border-red-500')
             }
             else {
                 console.log(false)
+                e.target['input'].classList.remove('border-blue-500')
+                e.target['input'].classList.add('border-red-500')
             }
         }
-        e.target.reset()
     }
 
     return (
         <div className='flex flex-col justify-center items-center'>
             <div className={`py-[20px] ${hide ? 'flex' : 'hidden'} w-full flex-col items-center gap-[20px]`}>
                 <div className='flex justify-center gap-[20px] border-[1px] border-gray-400 py-[15px] w-[90%] rounded-md'>
-                    <RadioGroup onChange={setLang} value={lang}>
+                    <RadioGroup onChange={setLang} defaultValue='1' value={lang}>
                         <Stack direction='column'>
                             <Radio value='1' >Eng - Uzb</Radio>
                             <Radio value='2'>Uzb - Eng</Radio>
@@ -79,7 +95,7 @@ const Play = () => {
                         <FormLabel htmlFor='mixed' mb='0'>
                             Mix it up?
                         </FormLabel>
-                        <Switch id='mixed' onChange={() => console.log('true')} />
+                        <Switch id='mixed' onChange={() => setMixed(!mixed)} />
                     </FormControl>
                 </div>
 
@@ -102,7 +118,7 @@ const Play = () => {
             </div>
             <div className={`${hide ? 'hidden' : 'flex'} flex-col w-[90%] py-[30px]`}>
                 <div className='w-full text-center border-b-[1px] mb-[30px] py-[10px]'>
-                    {counter+1}. {playWords[counter]}
+                    {counter + 1}. {lang === '1' ? playWords[counter].eng : playWords[counter].uzb}
                 </div>
                 <form onSubmit={(e) => handleSubmit(e)} className='w-full flex justify-between items-center gap-[20px]'>
                     <input id='input' type="text" className='w-full outline-none bg-transparent px-[20px] py-[10px] border-[1px] rounded-md border-blue-500' />
