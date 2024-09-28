@@ -2400,6 +2400,606 @@ export const words = [
         uzb: "Iyul"
     },
     {
+        id: 401,
+        level: 'elementary',
+        eng: 'August',
+        uzb: "Avgust"
+    },
+    {
+        id: 402,
+        level: 'elementary',
+        eng: 'September',
+        uzb: "Sentabr"
+    },
+    {
+        id: 403,
+        level: 'elementary',
+        eng: 'October',
+        uzb: "Oktyabr"
+    },
+    {
+        id: 404,
+        level: 'elementary',
+        eng: 'November',
+        uzb: "Noyabr"
+    },
+    {
+        id: 405,
+        level: 'elementary',
+        eng: 'December',
+        uzb: "Dekabr"
+    },
+    {
+        id: 406,
+        level: 'elementary',
+        eng: 'Season',
+        uzb: "Fasl"
+    },
+    {
+        id: 407,
+        level: 'elementary',
+        eng: 'Spring',
+        uzb: "Bahor"
+    },
+    {
+        id: 408,
+        level: 'elementary',
+        eng: 'Summer',
+        uzb: "Yoz"
+    },
+    {
+        id: 409,
+        level: 'elementary',
+        eng: 'Autumn',
+        uzb: "Kuz"
+    },
+    {
+        id: 410,
+        level: 'elementary',
+        eng: 'Winter',
+        uzb: "Qish"
+    },
+    {
+        id: 411,
+        level: 'elementary',
+        eng: 'Holiday',
+        uzb: "Bayram"
+    },
+    {
+        id: 412,
+        level: 'elementary',
+        eng: 'Birthday',
+        uzb: "Tug'ilgan kun"
+    },
+    {
+        id: 413,
+        level: 'elementary',
+        eng: 'Thunk you',
+        uzb: "Rahmat"
+    },
+    {
+        id: 414,
+        level: 'elementary',
+        eng: 'welcome',
+        uzb: "Xush kelibsiz"
+    },
+    {
+        id: 415,
+        level: 'elementary',
+        eng: 'Good bye',
+        uzb: "Xayr"
+    },
+    {
+        id: 416,
+        level: 'elementary',
+        eng: 'Russia',
+        uzb: "Rossiya"
+    },
+    {
+        id: 417,
+        level: 'elementary',
+        eng: 'Uzbekistan',
+        uzb: "O'zbekiston"
+    },
+    {
+        id: 418,
+        level: 'elementary',
+        eng: 'Great Britain',
+        uzb: "Buyuk Britaniya"
+    },
+    {
+        id: 419,
+        level: 'elementary',
+        eng: 'What a pirty',
+        uzb: "Afsus"
+    },
+    {
+        id: 420,
+        level: 'elementary',
+        eng: 'England',
+        uzb: "Angliya"
+    },
+    {
+        id: 421,
+        level: 'elementary',
+        eng: 'Plant',
+        uzb: "O'simlik"
+    },
+    {
+        id: 422,
+        level: 'elementary',
+        eng: 'Grass',
+        uzb: "O't-o'lan"
+    },
+    {
+        id: 423,
+        level: 'elementary',
+        eng: 'Tree',
+        uzb: "Daraxt"
+    },
+    {
+        id: 424,
+        level: 'elementary',
+        eng: 'Flower',
+        uzb: "Gul"
+    },
+    {
+        id: 425,
+        level: 'elementary',
+        eng: 'Leaf',
+        uzb: "Barg"
+    },
+    {
+        id: 426,
+        level: 'elementary',
+        eng: 'Flat',
+        uzb: "Dom"
+    },
+    {
+        id: 427,
+        level: 'elementary',
+        eng: 'Room',
+        uzb: "Xona"
+    },
+    {
+        id: 428,
+        level: 'elementary',
+        eng: 'Living room',
+        uzb: "Mehmonxona"
+    },
+    {
+        id: 429,
+        level: 'elementary',
+        eng: 'Bedroom',
+        uzb: "Yotoqxona"
+    },
+    {
+        id: 430,
+        level: 'elementary',
+        eng: 'Bathroom',
+        uzb: "Vannaxona"
+    },
+    {
+        id: 431,
+        level: 'elementary',
+        eng: 'Shower',
+        uzb: "Dush"
+    },
+    {
+        id: 432,
+        level: 'elementary',
+        eng: 'Toilet',
+        uzb: "Xojatxona"
+    },
+    {
+        id: 433,
+        level: 'elementary',
+        eng: 'Kichen',
+        uzb: "Oshxona"
+    },
+    {
+        id: 434,
+        level: 'elementary',
+        eng: 'Hall',
+        uzb: "Zal"
+    },
+    {
+        id: 435,
+        level: 'elementary',
+        eng: 'Balcony',
+        uzb: "Balkon"
+    },
+    {
+        id: 436,
+        level: 'elementary',
+        eng: 'Floor',
+        uzb: "Pol"
+    },
+    {
+        id: 437,
+        level: 'elementary',
+        eng: 'Ceiling',
+        uzb: "Shift"
+    },
+    {
+        id: 438,
+        level: 'elementary',
+        eng: 'Wall',
+        uzb: "Devor"
+    },
+    {
+        id: 439,
+        level: 'elementary',
+        eng: 'Stairs',
+        uzb: "Zina"
+    },
+    {
+        id: 440,
+        level: 'elementary',
+        eng: 'Door',
+        uzb: "Eshik"
+    },
+    {
+        id: 441,
+        level: 'elementary',
+        eng: 'Window',
+        uzb: "Oyna"
+    },
+    {
+        id: 442,
+        level: 'elementary',
+        eng: 'Windowsill',
+        uzb: "Podokonnik"
+    },
+    {
+        id: 443,
+        level: 'elementary',
+        eng: 'Curtain',
+        uzb: "Parda"
+    },
+    {
+        id: 444,
+        level: 'elementary',
+        eng: 'Socket',
+        uzb: "Rozekta"
+    },
+    {
+        id: 445,
+        level: 'elementary',
+        eng: 'Switch',
+        uzb: "Almashtirish"
+    },
+    {
+        id: 446,
+        level: 'elementary',
+        eng: 'Faucet',
+        uzb: "Jo'mrak"
+    },
+    {
+        id: 447,
+        level: 'elementary',
+        eng: 'Pipe',
+        uzb: "Quvur"
+    },
+    {
+        id: 448,
+        level: 'elementary',
+        eng: 'Chimney',
+        uzb: "Mo'ri"
+    },
+    {
+        id: 449,
+        level: 'elementary',
+        eng: 'Furniture',
+        uzb: "Mebel"
+    },
+    {
+        id: 450,
+        level: 'elementary',
+        eng: 'Table',
+        uzb: "Stol"
+    },
+    {
+        id: 451,
+        level: 'elementary',
+        eng: 'Chair',
+        uzb: "Stul"
+    },
+    {
+        id: 452,
+        level: 'elementary',
+        eng: 'Armchair',
+        uzb: "Kreslo"
+    },
+    {
+        id: 453,
+        level: 'elementary',
+        eng: 'Sofa',
+        uzb: "Divan"
+    },
+    {
+        id: 454,
+        level: 'elementary',
+        eng: 'Bed',
+        uzb: "Kravat"
+    },
+    {
+        id: 455,
+        level: 'elementary',
+        eng: 'Wardrobe',
+        uzb: "Garderob"
+    },
+    {
+        id: 456,
+        level: 'elementary',
+        eng: 'Cabinet',
+        uzb: "Kabinet"
+    },
+    {
+        id: 457,
+        level: 'elementary',
+        eng: 'Shelf',
+        uzb: "Polka"
+    },
+    {
+        id: 458,
+        level: 'elementary',
+        eng: 'Mirror',
+        uzb: "Ko'zgu"
+    },
+    {
+        id: 459,
+        level: 'elementary',
+        eng: 'Carpet',
+        uzb: "Gilam"
+    },
+    {
+        id: 460,
+        level: 'elementary',
+        eng: 'Fridge',
+        uzb: "Muzlatgich"
+    },
+    {
+        id: 461,
+        level: 'elementary',
+        eng: 'Microwave',
+        uzb: "Mikroto'lqinli pech"
+    },
+    {
+        id: 462,
+        level: 'elementary',
+        eng: 'Oven',
+        uzb: "Pechka"
+    },
+    {
+        id: 463,
+        level: 'elementary',
+        eng: 'Stove',
+        uzb: "Oshxona plitasi"
+    },
+    {
+        id: 464,
+        level: 'elementary',
+        eng: 'Dish',
+        uzb: "Idish"
+    },
+    {
+        id: 465,
+        level: 'elementary',
+        eng: 'Cup',
+        uzb: "Piyola"
+    },
+    {
+        id: 466,
+        level: 'elementary',
+        eng: 'Glass',
+        uzb: "Stakan"
+    },
+    {
+        id: 467,
+        level: 'elementary',
+        eng: 'Mug',
+        uzb: "Krujka"
+    },
+    {
+        id: 468,
+        level: 'elementary',
+        eng: 'Plate',
+        uzb: "Tarelka"
+    },
+    {
+        id: 469,
+        level: 'elementary',
+        eng: 'Spoon',
+        uzb: "Qoshiq"
+    },
+    {
+        id: 470,
+        level: 'elementary',
+        eng: 'Fork',
+        uzb: "Vilka"
+    },
+    {
+        id: 471,
+        level: 'elementary',
+        eng: 'Knife',
+        uzb: "Pichoq"
+    },
+    {
+        id: 472,
+        level: 'elementary',
+        eng: 'Saucer',
+        uzb: "Likopcha"
+    },
+    {
+        id: 473,
+        level: 'elementary',
+        eng: 'Bottle',
+        uzb: "Butilka"
+    },
+    {
+        id: 474,
+        level: 'elementary',
+        eng: 'Napkin',
+        uzb: "Salfetka"
+    },
+    {
+        id: 475,
+        level: 'elementary',
+        eng: 'Frying pan',
+        uzb: "Skovorodka"
+    },
+    {
+        id: 476,
+        level: 'elementary',
+        eng: 'Pan',
+        uzb: "Tova"
+    },
+    {
+        id: 477,
+        level: 'elementary',
+        eng: 'Kettle',
+        uzb: "Choynak"
+    },
+    {
+        id: 478,
+        level: 'elementary',
+        eng: 'Meal',
+        uzb: "Ovqat"
+    },
+    {
+        id: 479,
+        level: 'elementary',
+        eng: 'Breakfast',
+        uzb: "Nonushta"
+    },
+    {
+        id: 480,
+        level: 'elementary',
+        eng: 'Lunch',
+        uzb: "Tushlik"
+    },
+    {
+        id: 481,
+        level: 'elementary',
+        eng: 'Dinner',
+        uzb: "Kechki ovqat"
+    },
+    {
+        id: 482,
+        level: 'elementary',
+        eng: 'Transport',
+        uzb: "Transport"
+    },
+    {
+        id: 483,
+        level: 'elementary',
+        eng: 'Plane',
+        uzb: "Samolyot"
+    },
+    {
+        id: 484,
+        level: 'elementary',
+        eng: 'Car',
+        uzb: "Mashina"
+    },
+    {
+        id: 485,
+        level: 'elementary',
+        eng: 'Tram',
+        uzb: "Tramvay"
+    },
+    {
+        id: 486,
+        level: 'elementary',
+        eng: 'Bus',
+        uzb: "Avtobus"
+    },
+    {
+        id: 487,
+        level: 'elementary',
+        eng: 'Train',
+        uzb: "Poyezd"
+    },
+    {
+        id: 488,
+        level: 'elementary',
+        eng: 'Bicycle',
+        uzb: "Velosiped"
+    },
+    {
+        id: 489,
+        level: 'elementary',
+        eng: 'Ship',
+        uzb: "Korabl"
+    },
+    {
+        id: 490,
+        level: 'elementary',
+        eng: 'Worm',
+        uzb: "Qurt"
+    },
+    {
+        id: 491,
+        level: 'elementary',
+        eng: 'Name',
+        uzb: "Ism"
+    },
+    {
+        id: 492,
+        level: 'elementary',
+        eng: 'Surname',
+        uzb: "Familya"
+    },
+    {
+        id: 493,
+        level: 'elementary',
+        eng: 'Maiden name',
+        uzb: "Qizlik familiya"
+    },
+    {
+        id: 494,
+        level: 'elementary',
+        eng: 'Birth date',
+        uzb: "Tug'ilgan sana"
+    },
+    {
+        id: 495,
+        level: 'elementary',
+        eng: 'Place of birth',
+        uzb: "Tug'ilgan joy"
+    },
+    {
+        id: 496,
+        level: 'elementary',
+        eng: 'Adress',
+        uzb: "Manzil"
+    },
+    {
+        id: 497,
+        level: 'elementary',
+        eng: 'Marital status',
+        uzb: "Oilaviy holati"
+    },
+    {
+        id: 498,
+        level: 'elementary',
+        eng: 'Single',
+        uzb: "Bo'ydoq"
+    },
+    {
+        id: 499,
+        level: 'elementary',
+        eng: 'Married',
+        uzb: "Turmush qurgan"
+    },
+    {
+        id: 500,
+        level: 'elementary',
+        eng: 'Mist',
+        uzb: "Tuman"
+    },
+    {
         id: 601,
         level: 'elementary',
         eng: 'Body',
