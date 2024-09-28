@@ -30,7 +30,7 @@ const Play = () => {
     }
 
     function rangeWords() {
-        const newPlaywords = words.filter((item, index) => (index >= range[0] && index <= range[1]))
+        const newPlaywords = words.filter((item, index) => (index > range[0] && index <= range[1]))
         if (mixed) {
             shuffle(newPlaywords)
         }
