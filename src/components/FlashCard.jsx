@@ -1,22 +1,20 @@
 import React, { useState, useEffect } from 'react'
-import {
-  getTodayISO,
-  getNextReviewDay,
-  addDays,
-} from '../utils/spacedRepetition'
+import { getTodayISO, getNextReviewDay, addDays } from '../utils/spacedRepetition'
 
-export default function Flashcard({ words, setWords }) {
+export default function Flashcard({ words, setWords, onlyNew = false }) {
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [todayWords, setTodayWords] = useState([])
 
   useEffect(() => {
     const today = getTodayISO()
-    const filtered = words.filter(
-      (w) => w.nextReviewDate === today || !w.nextReviewDate
-    )
+
+    const filtered = onlyNew
+      ? words.filter((w) => w.currentDay === 0 && !w.nextReviewDate)
+      : words.filter((w) => w.nextReviewDate === today || !w.nextReviewDate)
+
     setTodayWords(filtered)
-  }, [words])
+  }, [words, onlyNew])
 
   if (todayWords.length === 0) {
     return (
@@ -33,6 +31,7 @@ export default function Flashcard({ words, setWords }) {
       current.currentDay,
       success
     )
+
     const updated = {
       ...current,
       currentDay,
@@ -40,6 +39,7 @@ export default function Flashcard({ words, setWords }) {
       history: [...current.history, { date: getTodayISO(), success }],
     }
 
+    // ASOSIY words massivida yangilaymiz
     const newWords = words.map((w) => (w.id === current.id ? updated : w))
     setWords(newWords)
 
@@ -90,6 +90,9 @@ export default function Flashcard({ words, setWords }) {
               transform: 'rotateY(180deg)',
             }}
           >
+            <p className='text-gray-800 mt-2 font-bold'>
+              {current.definitionUz}
+            </p>
             <p className='text-gray-800 text-center font-medium'>
               {current.definition}
             </p>
