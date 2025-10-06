@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import { getTodayISO, getNextReviewDay, addDays } from '../utils/spacedRepetition'
+import {
+  getTodayISO,
+  getNextReviewDay,
+  addDays,
+} from '../utils/spacedRepetition'
 
 export default function Flashcard({ words, setWords, onlyNew = false }) {
   const [index, setIndex] = useState(0)
@@ -14,6 +18,7 @@ export default function Flashcard({ words, setWords, onlyNew = false }) {
       : words.filter((w) => w.nextReviewDate === today || !w.nextReviewDate)
 
     setTodayWords(filtered)
+    setIndex(0) // yangi filter bo'lganda 0 ga tush
   }, [words, onlyNew])
 
   if (todayWords.length === 0) {
@@ -39,7 +44,6 @@ export default function Flashcard({ words, setWords, onlyNew = false }) {
       history: [...current.history, { date: getTodayISO(), success }],
     }
 
-    // ASOSIY words massivida yangilaymiz
     const newWords = words.map((w) => (w.id === current.id ? updated : w))
     setWords(newWords)
 
@@ -48,16 +52,20 @@ export default function Flashcard({ words, setWords, onlyNew = false }) {
       setIndex(index + 1)
     } else {
       setTodayWords([])
+      setIndex(0) // oxirgi so'zda ham 0 ga tush
     }
   }
 
   return (
-    <div className='mt-8'>
+    <div className='mt-8 p-[10px] '>
       {/* 3D Flip Card */}
-      <div className='relative w-full h-64' style={{ perspective: '1000px' }}>
+      <div
+        className='relative w-[95%] m-auto  h-64'
+        style={{ perspective: '1000px' }}
+      >
         <div
           onClick={() => setFlipped(!flipped)}
-          className='relative w-full h-full cursor-pointer transition-transform duration-700'
+          className='relative w-full h-full cursor-pointer transition-transform duration-700 '
           style={{
             transformStyle: 'preserve-3d',
             transform: flipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
@@ -65,7 +73,7 @@ export default function Flashcard({ words, setWords, onlyNew = false }) {
         >
           {/* OLD TOMON */}
           <div
-            className='absolute inset-0 flex flex-col justify-center items-center bg-white rounded-2xl shadow-xl p-6'
+            className='absolute border-[1px] border-gray-300 inset-0 flex flex-col justify-center items-center bg-white rounded-2xl shadow-xl p-6'
             style={{ backfaceVisibility: 'hidden' }}
           >
             <h2 className='text-4xl font-extrabold text-purple-700'>
@@ -84,7 +92,7 @@ export default function Flashcard({ words, setWords, onlyNew = false }) {
 
           {/* ORQA TOMON */}
           <div
-            className='absolute inset-0 flex flex-col justify-center items-center bg-gradient-to-br from-purple-50 to-blue-100 rounded-2xl shadow-xl p-6'
+            className='absolute border-[1px] border-gray-300 inset-0 flex flex-col justify-center items-center bg-gradient-to-br from-purple-50 to-blue-100 rounded-2xl shadow-xl p-6'
             style={{
               backfaceVisibility: 'hidden',
               transform: 'rotateY(180deg)',
